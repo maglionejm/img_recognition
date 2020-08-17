@@ -9,7 +9,7 @@ from ibm_watson import VisualRecognitionV3
 
 visual_recognition = VisualRecognitionV3(
     '2018-03-19',
-    iam_apikey='FXqFN_JjeJ0SW9K5Yp6gWl5I_sF0JTZugbXkfgPAVncQ')
+    iam_apikey='INSERT API KEY')
 
 with open('/Users/juanmartinmaglione/Desktop/5678.jpg', 'rb') as images_file:
     classes = visual_recognition.classify(
